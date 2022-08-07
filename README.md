@@ -90,3 +90,6 @@ List of available routes:
 `GET /v1/tickets/{ticketId}` - ticketDetail\
 `PATCH /v1/tickets/markAsClosed/{ticketId}` - close\
 `DELETE /v1/tickets/{ticketId}` - delete\
+
+### Logs 
+The logs will be exported to `logs/<NODE_ENV>.log` file
