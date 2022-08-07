@@ -75,7 +75,7 @@ const updateTicketById = async (ticketId, updateBody) => {
 const deleteTicketById = async (ticketId, by) => {
   const ticket = await updateTicketById(ticketId, {
     isDeleted: true,
-    deletedBy: by
+    deletedBy: by,
   });
   return ticket;
 };
